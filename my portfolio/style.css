@@ -1,0 +1,55 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      background-image: url('77a865af-34b8-470c-aa30-eddc86df1063.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      backdrop-filter: brightness(0.5);
+      background-image: url(fresh-water.jpg);
+    }
+    .overlay {
+      background-color: rgba(0, 50, 100, 0.5);
+      min-height: 100vh;
+      padding: 20px;
+      backdrop-filter: blur(8px); 
+    }
+    header {
+      text-align: center;
+      padding: 50px 0 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 60px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      backdrop-filter: blur(8px); 
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a{
+      color:#fff;
+    } 
+    
